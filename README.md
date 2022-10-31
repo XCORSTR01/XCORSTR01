@@ -12,6 +12,7 @@ local Server =  syn.request({
 
 if Server == "WHITELIST !" then
     print("SCRIPT")
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/XCORSTR01/XCORSTR01/main/SCRIPT'))()
 elseif Server == "Invaid HWID !" then
     game.Players.LocalPlayer:kick("Invaid HWID")
 elseif Server == "Invaid Key" then
